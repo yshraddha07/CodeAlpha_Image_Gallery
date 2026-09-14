@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+<rect width="900" height="600" fill="#b8e3ff"/>
+<rect y="400" width="900" height="200" fill="#6b8e5a"/>
+<circle cx="730" cy="125" r="70" fill="#ffffff"/>
+<path d="M0 410 L180 230 L300 360 L460 180 L650 410 Z" fill="#6b8e5a"/>
+<path d="M300 360 L460 180 L520 245 L460 245 L400 315 Z" fill="#ffffff" opacity=".75"/>
+<text x="450" y="535" text-anchor="middle" font-family="Arial" font-size="42" fill="#ffffff">Mountain View</text>
+</svg>

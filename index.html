@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Image Gallery</h1>
+
+        <div class="gallery">
+            <img src="images/photo1.svg" alt="Mountain view" data-index="0">
+            <img src="images/photo2.svg" alt="Beach view" data-index="1">
+            <img src="images/photo3.svg" alt="Forest view" data-index="2">
+            <img src="images/photo4.svg" alt="City view" data-index="3">
+            <img src="images/photo5.svg" alt="Lake view" data-index="4">
+            <img src="images/photo6.svg" alt="Sunset view" data-index="5">
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <button class="close" id="close">&times;</button>
+        <button class="prev" id="prev">&#10094;</button>
+        <img id="lightboxImage" src="images/photo1.svg" alt="Selected image">
+        <button class="next" id="next">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
